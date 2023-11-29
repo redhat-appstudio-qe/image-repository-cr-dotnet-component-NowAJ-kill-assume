@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-audu
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/redhat-appstudio-qe/rs-demos-dstx-tenant/image-repository-cr-dotnet-component/devfile-sample-dotnet60-basic-audu
         imagePullPolicy: Always
         name: main
         ports:
